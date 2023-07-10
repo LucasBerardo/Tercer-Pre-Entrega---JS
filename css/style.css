@@ -1,0 +1,292 @@
+header { width: 100%;
+height: 100%;
+background: url(../img/logo.jpg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+position: relative;
+margin-bottom: 100px;
+}
+
+.nav { width: 100%;
+height: 1100px;
+display: flex;
+justify-content: space-between;}
+
+a {
+    width: 10%;
+    height: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    margin: 10px 10px;
+    padding: 20px 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.titulo-inicio{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+.titulo {font-size: 40px;
+font-weight: bold;
+
+display: flex;
+    justify-content: center;
+    text-align: center;}
+
+
+.slogan {font-size: 30px;
+    font-weight: bold;
+    }
+
+button {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 15px;
+    position: relative;
+  
+    }
+    .carrito-button {position: absolute;
+    top: 5%;
+    left: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+&:hover{cursor: pointer;}}
+
+.carrito{
+    width: 25px;
+    height: 25px;
+}
+main { padding:  10px;
+    float: left;
+background-color: rgba(173, 179, 154);
+}
+
+
+img {object-fit: cover;
+    width: 20%;
+height: 100%;
+
+}
+
+
+.card {
+    background-color: rgba(158, 158, 158, 0.726);
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+opacity: 0.7;
+margin: 10px;
+padding: 5px;
+box-shadow: 2px 2px 2px 2px;
+justify-content: center;
+text-align: center;
+
+&:hover {
+    opacity: 1;
+    }
+}
+
+.subtitulos {
+    font-size: 10 px;
+    font-weight: bold;
+}
+
+
+
+
+    .card :hover {
+        opacity: 1;
+        font-size: 15px;
+    }
+
+    .carrito_button :hover {
+        cursor:  pointer;
+    }
+    
+    .carrito {
+        object-fit: cover;
+        width: 25px;
+        height: 25px;
+      
+    } 
+    
+    .carrito :hover {
+        cursor:  pointer;
+    } 
+
+.contenedor {
+    padding: 10px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+span {padding: 5px;}
+
+.agregar { width: 50%;
+background-color: black;
+color: white;
+
+&:hover { cursor: pointer;}}
+
+
+/* 
+header{
+    background-color: rgba(173, 179, 154);
+    position: relative;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;}
+
+.titulo { 
+    width: 100% ;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px 2px;
+    margin: 20px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(173, 179, 154);
+}
+
+.slogan{    background-color: rgba(173, 179, 154);
+    width: 100% ;
+    height: 100%;
+    border-radius: 5px;
+    padding: 5px 2px;
+    margin: 20px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.paginas{
+  
+    background-color: rgb(144, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 30px;
+    margin: 10px 10px;
+    padding: 20px 20px ;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    margin: 10px 10px;
+    padding: 20px 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+   
+}
+
+h1,h2 {
+color:rgb(71, 69, 69);
+} 
+
+body {
+    background-color: rgba(173, 179, 154);
+    width: 100%;
+    height: 100%;
+}
+img {object-fit: cover;
+    width: 20%;
+height: 100%;
+opacity: 0.5;
+
+}
+
+
+.card {
+    background-color: rgba(158, 158, 158, 0.726);
+width: 21%;
+
+margin: 10px;
+padding: 5px;
+box-shadow: 2px 2px 2px 2px;
+
+justify-content: center;
+text-align: center;
+}
+
+.subtitulos {
+    font-size: 10 px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+img :hover {
+    opacity: 1;
+    }
+
+
+    .card :hover {
+        opacity: 1;
+        font-size: 15px;
+    }
+
+    .tienda {
+        display: grid;
+        grid-area: auto;
+
+    }
+
+    .carrito_button{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 3rem;
+        right: 1rem;
+       
+    }
+
+    .carrito_button :hover {
+        cursor:  pointer;
+    }
+    
+    .carrito {
+        object-fit: cover;
+        width: 25px;
+        height: 25px;
+      
+    } 
+    
+    .carrito :hover {
+        cursor:  pointer;
+    } */
