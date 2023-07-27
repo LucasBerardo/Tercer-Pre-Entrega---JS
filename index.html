@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    
+
+
 
     <title>Nuts</title>
 </head>
@@ -16,16 +21,23 @@
       
 
 
-<a href="./index.html">  INICIO </a>
- <button id="carrito_button"> <img class="carrito" src="./img/carrito.png" alt=""> </button>
-</div>
+
+ 
+
 </section>
 </header>
 <main>
+    <section class="navegador">
+    <a href="./index.html" style="cursor: pointer;">  INICIO </a>
+    <button id="carrito_button" style="cursor: pointer;"> <img class="carrito" src="./img/carrito.png" alt=""> </button>
+</section>
+<div id="tienda" style="display: grid;
+grid-template-columns: repeat(3, 1fr)" >
 
-<div id="tienda">
+
 
 </div>
+
 
 
 <div id="button-eliminar">
@@ -36,8 +48,9 @@
 </main>
 
 
-    <script src="./js/index.js"></script>
-    
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.16/dist/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="./js/index.js"></script>
+  
 </body>
 </html>
